@@ -1,0 +1,29 @@
+body {
+    display: flex;
+}
+
+.card {
+    width: 70%;
+    z-index: 2;
+    user-select: none;
+}
+
+.image {
+    max-width: 80%;
+        max-height: 80%%;
+        display: block;
+}
+
+.unvisible {
+    display: none;
+}
+
+.notice {
+    color: red;
+    z-index: 4;
+    position: absolute;
+    font-size: 100px;
+    margin: 276px;;
+    
+}
+
